@@ -81,7 +81,7 @@ header{
 #test{
     position: absolute;
     font-size: 5em;
-    z-index: 1;
+    
     color: #1b283a;
     text-shadow: 2px 4px 5px #f9f9f9;
 }
@@ -94,9 +94,11 @@ header{
 }
 .parallax img#gate-left{
     transform: translateX(-282px);
+    position: fixed;
 }
 .parallax img#gate-right{
     transform: translateX(305px);
+position: fixed;
 
 }
 
@@ -105,6 +107,7 @@ header{
     background-color: black;
     color: white;
     padding: 30px 100px;
+    height: 100vh;
 }
 .sec h2{
     font-size: 3em;
